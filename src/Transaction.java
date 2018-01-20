@@ -13,4 +13,20 @@ public class Transaction {
 
     private static int sequence = 0;
 
+    public Transaction(PublicKey from, PublicKey to, float value, ArrayList<TransactionInput> inputs) {
+        this.sender = from;
+        this.recipient = to;
+        this.value = value;
+        this.inputs = inputs;
+    }
+
+    private String calculateHash() {
+        sequence++;
+        return StringUtil.applySha256(
+                StringUtil.getStringFromKey(sender) +
+                        StringUtil.getStringFromKey(recipient) +
+                        Float.toString(value) + sequence
+        );
+    }
+
 }
