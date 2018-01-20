@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff38713f-638d-456e-90a2-8378a0f8c08e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringUtil.java" afterPath="$PROJECT_DIR$/src/StringUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Transaction.java" afterPath="$PROJECT_DIR$/src/Transaction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,15 +38,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#297#315#0" expanded="true" />
-                <element signature="e#382#401#0" expanded="true" />
+                <element signature="e#330#348#0" expanded="true" />
+                <element signature="e#415#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="387">
@@ -121,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/Wallet.java" />
         <option value="$PROJECT_DIR$/src/TransactionOutput.java" />
         <option value="$PROJECT_DIR$/src/TransactionInput.java" />
-        <option value="$PROJECT_DIR$/src/Transaction.java" />
         <option value="$PROJECT_DIR$/src/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/Transaction.java" />
       </list>
     </option>
   </component>
@@ -437,18 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#315#0" expanded="true" />
-            <element signature="e#382#401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -465,6 +453,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1700#1701#0" expanded="true" />
             <element signature="e#1775#1776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#348#0" expanded="true" />
+            <element signature="e#415#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
